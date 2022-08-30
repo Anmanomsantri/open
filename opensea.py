@@ -165,18 +165,27 @@ for i in range(iter):
                 continue
 
 print(f"""
+
 Finished downloading collection.
+
+
 Statistics
 -=-=-=-=-=-
+
 Total of {count} units in collection "{CollectionName}".
+
 Downloads:
+
   JSON Files ->
     {stats["DownloadedData"]} successfully downloaded
     {stats["AlreadyDownloadedData"]} already downloaded
+
   Images ->
     {stats["DownloadedImages"]} successfully downloaded
     {stats["AlreadyDownloadedImages"]} already downloaded
     {stats["FailedImages"]} failed
+
+
 You can find the images in the images/{CollectionName} folder.
 The JSON for each NFT can be found in the images/{CollectionName}/image_data folder.
 Press enter to exit...""")
