@@ -4,7 +4,7 @@ import json
 import math
 from random_user_agent.user_agent import UserAgent
 from random_user_agent.params import SoftwareName, OperatingSystem
-import cloudscraper
+import cloudscraperopensea.py
 
 # This creates a new Scraper instance that can get past the OpenSea Cloudflare protections
 scraper = cloudscraper.create_scraper(
